@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehal Gupta | UI/UX Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            overflow-x: hidden;
+        }
+        .radium-blobs {
+            position: absolute;
+            background: radial-gradient(circle, red, transparent);
+            border-radius: 50%;
+            opacity: 0.6;
+            z-index: -1;
+        }
+        .blob-left {
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: -50px;
+        }
+        .blob-right {
+            width: 300px;
+            height: 300px;
+            bottom: 10%;
+            right: -50px;
+        }
+        .blob-contact {
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: -50px;
+        }
+        .blob-contact-right {
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            right: -50px;
+        }
+        .section {
+            padding: 50px 15px;
+        }
+        .portfolio-item {
+            margin-bottom: 30px;
+        }
+        a {
+            color: #ff4c4c;
+        }
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-section {
+            position: relative;
+            padding: 50px 15px;
+        }
+        .spacer {
+            margin-bottom: 50px;
+        }
+        .header-image {
+            width: 100%;
+            height: auto;
+        }
+        .header-spacing {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="radium-blobs blob-right"></div>
+
+    <!-- Header Section -->
+    <header class="text-center section">
+        <img src="Assets/Images/Website Header.png" class="header-image" alt="Website Header">
+        <div class="header-spacing"></div>
+        <h1>Welcome to my journey of transformation!</h1>
+        <p>I'm <strong>Mehal Gupta</strong>, a commerce graduate with a passion for turning pixels into delightful user experiences</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="section">
+        <div class="radium-blobs blob-left"></div>
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="spacer"></div>
+            <p><strong>Background:</strong> With a solid foundation in commerce, I've honed my analytical and problem-solving skills. My previous experiences have taught me the importance of understanding user behavior, market dynamics, and business objectives.</p>
+            <p><strong>Transition:</strong> Now, I'm embarking on a new adventure as I transition into the world of UI/UX design. I'm captivated by the intersection of creativity and functionality, and I'm excited to use my analytical mindset to craft user-centric digital solutions.</p>
+            <p><strong>Skills:</strong> My skills include user research, wireframing, prototyping, and a strong eye for aesthetics. I'm proficient in design tools such as Adobe XD, Figma, and WordPress. I am also well efficient with HTML, CSS & Bootstrap. I'm constantly learning to stay at the forefront of design trends and technologies.</p>
+            <p><strong>Continuous Learning:</strong> The design world is ever-evolving, and I'm committed to continuous learning and growth. I'm currently enhancing my skills through courses, mentorship, and real-world projects.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section bg-dark">
+        <div class="container">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="spacer"></div>
+            <div class="row">
+                <div class="col-md-3 portfolio-item">
+                    <a href="https://www.behance.net/gallery/185179985/Wedconnect" target="_blank">
+                        <img src="Assets/Images/Wedconnect.png" alt="Wedconnect" class="img-fluid">
+                        <h5 class="text-center mt-2">Wedconnect</h5>
+                    </a>
+                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="https://www.behance.net/gallery/185774253/Polity" target="_blank">
+                        <img src="Assets/Images/Polity.png" alt="Polity" class="img-fluid">
+                        <h5 class="text-center mt-2">Polity</h5>
+                    </a>
+                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="https://www.behance.net/gallery/193532577/Naari" target="_blank">
+                        <img src="Assets/Images/Naari.png" alt="Naari" class="img-fluid">
+                        <h5 class="text-center mt-2">Naari</h5>
+                    </a>
+                </div>
+                <div class="col-md-3 portfolio-item">
+                    <a href="https://www.behance.net/gallery/193591879/Dynamic-digital-platform-for-an-Indian-vocalist" target="_blank">
+                        <img src="Assets/Images/Swatibhatt.png" alt="Indian Vocalist" class="img-fluid">
+                        <h5 class="text-center mt-2">Indian Vocalist</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="radium-blobs blob-contact"></div>
+        <div class="radium-blobs blob-contact-right"></div>
+        <div class="container text-center">
+            <h2>Contact</h2>
+            <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:mehalgupta18@gmail.com">mehalgupta18@gmail.com</a></p>
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/mehu.5" target="_blank">@mehu.5</a></p>
+                <p><strong>Behance:</strong> <a href="https://www.behance.net/mehalgupta1" target="_blank">www.behance.net/mehalgupta1</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
